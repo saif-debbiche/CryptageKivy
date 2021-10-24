@@ -1,0 +1,76 @@
+
+
+<MainWidget>:
+    Image:
+        source:"image/bg2.jpg"
+    AnchorLayout:
+        size:root.size
+        anchor_x:'center'
+        anchor_y:'top'
+        Label:
+            size_hint:None,None
+            height:"100dp"
+            width:"400dp"
+            canvas.before:
+                Color:
+                    rgba:0,0,0,1
+                Rectangle:
+                    pos:self.pos
+                    size:self.size
+            color:0,0,1
+            font_name:"fonts/Lcd.ttf"
+            font_size:"40dp"
+            text:"Cripter / decripter"
+    BoxLayout:
+        size_hint:None,None
+        height:"50dp"
+        width:"200dp"
+        pos:root.width/2-175,root.height/2-115
+        orientation:"vertical"
+        spacing: '10dp'
+        Button:
+            background_normal:''
+            background_color:0.2, 0, 0.3
+            text:"Crypter with key "
+            size_hint:None,None
+            height:50
+            width:350
+            font_size:30
+            font_name:"fonts/Creepster-Regular.ttf"
+        Button:
+            background_normal:''
+            background_color:0.2, 0, 0.3
+            text:"Crypter without key "
+            size_hint:None,None
+            height:50
+            width:350
+            font_size:30
+            font_name:"fonts/Creepster-Regular.ttf"
+        Button:
+            background_normal:''
+            background_color:0.2, 0, 0.3
+            text:"Crypter without key "
+            size_hint:None,None
+            height:50
+            width:350
+            font_name:"fonts/Creepster-Regular.ttf"
+            font_size:30
+        Button:
+            background_normal:''
+            background_color:0.2, 0, 0.3
+            text:"Crypter without key "
+            size_hint:None,None
+            height:50
+            width:350
+            font_size:30
+            font_name:"fonts/Creepster-Regular.ttf"
+        
+        
+    
+        
+
+
+
+
+   
+
